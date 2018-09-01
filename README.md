@@ -39,9 +39,10 @@ TBD
 
 Nothing fancy, just some headers and 2 differents power conector (choose the one you prefer) :
 
- - Ebay search for "DC Power Jack Barrel PCB Mount" <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/DC-Power-Barrel.jpg">
- - Phoenix contact PCB terminal block - SPTAF ref 1864286 can be found anywhere <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/SPTAF-1864286.jpg">
- - 
+ - Ebay search for "DC Power Jack Barrel PCB Mount"
+ <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/DC-Power-Barrel.jpg">
+ - Phoenix contact PCB terminal block - SPTAF ref 1864286 can be found anywhere
+ <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/SPTAF-1864286.jpg">
 
 # License
 
@@ -52,6 +53,8 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 In
 # Misc
 
 See news and other projects on my [blog][2] 
+
+Thanks to [HariFun][1] for this awesome stuff, please review and see how to build on [Instructable][3]
  
 [1]: https://www.instructables.com/member/HariFun/
 [2]: https://hallard.me
