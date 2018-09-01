@@ -4,7 +4,7 @@ This shield is used to get simplify ESP8266 connectivity with a [WeMos][22] ESP8
 
 See it in action, nice isn't it?
 
-<img src="https://cdn.instructables.com/FH0/LEIP/JJ500268/FH0LEIPJJ500268.ANIMATED.LARGE.gif">
+<img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Morphing-Clock.gif">
 
 This breakout has just few minimal features.
 
