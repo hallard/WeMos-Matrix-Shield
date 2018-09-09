@@ -6,7 +6,19 @@ See it in action, nice isn't it?
 
 <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Morphing-Clock.gif">
 
-This breakout has just few minimal features.
+This breakout has just few minimal features. **The V1.0 was missing B1 on 6 pin out connector, so you should grab it elsewhare, but it's now fixec on V1.1**
+
+*New in V1.1*
+
+- Power, added big connector 3.5mm spaced to put the supplied power cable
+- Changed 3.5mm Phoenix connector by a 5mm one allowing the stronger power cabmle to fit info
+- Moved output connector to the right you can use the supplied flat band connector
+- Output connector can go straight to output connector of Matrix, allowing to use a 6 PIN ISP Arduino Like ribbon cable.
+- Increased PCB traces width for 5V power
+- Added some wiring info on bottom silk
+
+
+*Still in V1.0+*
 
 - DC Barrel power connector 
 - Zero Press Fit power connector
@@ -41,7 +53,7 @@ Nothing fancy, just some headers and 2 differents power conector (choose the one
 
  - Ebay search for "DC Power Jack Barrel PCB Mount"
  <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/DC-Power-Barrel.jpg">
- - Phoenix contact PCB terminal block - SPTAF ref 1864286 can be found anywhere
+ - Phoenix contact PCB terminal block - SPTAF ref 1864286 (V1.0) or 1864435 (V1.1+) can be found anywhere
  <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/SPTAF-1864286.jpg">
 
 # License
