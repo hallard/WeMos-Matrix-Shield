@@ -6,7 +6,7 @@ See it in action, nice isn't it?
 
 <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Morphing-Clock.gif">
 
-This breakout has just few minimal features. **The V1.0 was missing B1 on 6 pin out connector, so you should grab it elsewhare, but it's now fixec on V1.1**
+This breakout has just few minimal features.
 
 *New in V1.1*
 
@@ -26,7 +26,7 @@ This breakout has just few minimal features. **The V1.0 was missing B1 on 6 pin 
 
 WeMos provide 3 D1, [D1 Mini Lite][20], [D1 Mini][21] or [D1 Mini Pro][22].
 
-**Boards are untested yet, order from [PCBs.io][4]**
+** V1.0 boards are tested and working**. But it was missing B1 on 6 pin out connector, so you should grab it elsewhere, but it's now fixec on V1.1 and also aligned out connector pins to the needed Matrix Order. You can order boards V1.1 at [PCBs.io][4]**
 
 # Detailed Description
 
