@@ -8,10 +8,14 @@ See it in action, nice isn't it?
 
 This breakout has just few minimal features.
 
+*New in V1.2*
+
+- Added footprint for a Photoresistor (LDR) + Resistor to be able to adjust luminosity with ambiant light
+
 *New in V1.1*
 
 - Power, added big connector 3.5mm spaced to put the supplied power cable
-- Changed 3.5mm Phoenix connector by a 5mm one allowing the stronger power cabmle to fit info
+- Changed 3.5mm Phoenix connector by a 5mm one allowing the stronger power cable to fit info
 - Moved output connector to the right you can use the supplied flat band connector
 - Output connector can go straight to output connector of Matrix, allowing to use a 6 PIN ISP Arduino Like ribbon cable.
 - Increased PCB traces width for 5V power
