@@ -8,11 +8,11 @@ See it in action, nice isn't it?
 
 This breakout has just few minimal features.
 
-*New in V1.2*
+**New in V1.2**
 
 - Added footprint for a Photoresistor (LDR) + Resistor to be able to adjust luminosity with ambiant light
 
-*New in V1.1*
+**New in V1.1**
 
 - Power, added big connector 3.5mm spaced to put the supplied power cable
 - Changed 3.5mm Phoenix connector by a 5mm one allowing the stronger power cable to fit info
@@ -22,7 +22,7 @@ This breakout has just few minimal features.
 - Added some wiring info on bottom silk
 
 
-*Still in V1.0+*
+**Still in V1.0+**
 
 - DC Barrel power connector 
 - Zero Press Fit power connector
@@ -30,7 +30,7 @@ This breakout has just few minimal features.
 
 WeMos provide 3 D1, [D1 Mini Lite][20], [D1 Mini][21] or [D1 Mini Pro][22].
 
-** V1.0 boards are tested and working**. But it was missing B1 on 6 pin out connector, so you should grab it elsewhere, but it's now fixec on V1.1 and also aligned out connector pins to the needed Matrix Order. You can order boards V1.1 at [PCBs.io][4]**
+**V1.0 boards are tested and working**. But it was missing B1 on 6 pin out connector, so you should grab it elsewhere, but it's now fixed on V1.1+ and also aligned out connector pins to the needed Matrix Order. You can order boards V1.2 at [PCBs.io][4]
 
 # Detailed Description
 
@@ -75,7 +75,7 @@ Thanks to [HariFun][1] for this awesome stuff, please review and see how to buil
 [1]: https://www.instructables.com/member/HariFun/
 [2]: https://hallard.me
 [3]: https://www.instructables.com/id/Morphing-Digital-Clock/
-[4]: https://PCBs.io/share/zMPKb
+[4]: https://PCBs.io/share/rG9w7
 
 [20]: https://wiki.wemos.cc/products:d1:d1_mini_lite
 [21]: https://wiki.wemos.cc/products:d1:d1_mini
