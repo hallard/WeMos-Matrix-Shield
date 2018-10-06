@@ -4,7 +4,7 @@ This shield is used to get simplify ESP8266 connectivity with a [WeMos][22] ESP8
 
 See it in action, nice isn't it?
 
-**Pay attention V1.2 got a missing trace between Input G0 and Output G1**
+**Pay attention V1.2 got a missing trace between Input and Output connector G1**
 See Issue [#2](https://github.com/hallard/WeMos-Matrix-Shield/issues/2). and how to fix. If you have V1.2 don't forget to solder a wire between these 2 points. Thanks to nthonyjclarke and dragondaud for pointing this out
 
 <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Morphing-Clock.gif">
@@ -13,7 +13,7 @@ This breakout has just few minimal features.
 
 **New in V1.3**
 
-- Fixed missing trace missing beetwen Input G0 and Output G1. That was cutted by accident when creating V1.2 from V1.1.
+- Fixed missing trace missing beetwen Input and Output connector G1. That was cutted by accident when creating V1.2 from V1.1.
 
 **New in V1.2**
 
@@ -57,6 +57,10 @@ Look at the schematics for more informations.
 <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/WeMos-Matrix-Shield-bot.jpg" alt="Bottom" width="40%" height="40%">
 
 You can order the PCB of this board at [PCBs.io][4]. PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order them for free, so if you don't care about PCB manufacturer please use PCBs.io.
+
+# Firmware
+
+I suggest to use the excellent code done by [dragondaud](https://github.com/dragondaud/myClock), it has all I wanted to do and mandatory feature, OTA!
 
 # Assembled boards
 
