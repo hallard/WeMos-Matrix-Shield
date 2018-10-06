@@ -5,7 +5,7 @@ This shield is used to get simplify ESP8266 connectivity with a [WeMos][22] ESP8
 See it in action, nice isn't it?
 
 **Pay attention V1.2 got a missing trace between Input and Output connector G1**
-See Issue [#2](https://github.com/hallard/WeMos-Matrix-Shield/issues/2). and how to fix. If you have V1.2 don't forget to solder a wire between these 2 points. Thanks to nthonyjclarke and dragondaud for pointing this out
+See Issue [#2](https://github.com/hallard/WeMos-Matrix-Shield/issues/2). and how to fix. If you have V1.2 don't forget to solder a wire between these 2 points (see below). Thanks to nthonyjclarke and dragondaud for pointing this out
 
 <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Morphing-Clock.gif">
 
@@ -41,7 +41,7 @@ This breakout has just few minimal features.
 
 WeMos provide 3 D1, [D1 Mini Lite][20], [D1 Mini][21] or [D1 Mini Pro][22].
 
-**V1.0 boards are tested and working**. But it was missing B1 on 6 pin out connector, so you should grab it elsewhere, but it's now fixed on V1.1+ and also aligned out connector pins to the needed Matrix Order. You can order boards V1.2 at [PCBs.io][4]
+**V1.0 boards are tested and working**. But it was missing B1 on 6 pin out connector, so you should grab it elsewhere, but it's now fixed on V1.1+ and also aligned out connector pins to the needed Matrix Order. You can order boards V1.3 at [PCBs.io][4]
 
 # Detailed Description
 
@@ -60,7 +60,7 @@ You can order the PCB of this board at [PCBs.io][4]. PCBs.io give me some reward
 
 # Firmware
 
-I suggest to use the excellent code done by [dragondaud](https://github.com/dragondaud/myClock), it has all I wanted to do and mandatory feature, OTA!
+I suggest to use the excellent code done by [dragondaud](https://github.com/dragondaud/myClock), it has all I wanted to do and mandatory feature, OTA and LDR Luminosity management.
 
 # Assembled boards
 
