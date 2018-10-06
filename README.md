@@ -4,13 +4,24 @@ This shield is used to get simplify ESP8266 connectivity with a [WeMos][22] ESP8
 
 See it in action, nice isn't it?
 
+**Pay attention V1.2 got a missing trace between Input G0 and Output G1**
+See Issue [#2](https://github.com/hallard/WeMos-Matrix-Shield/issues/2). and how to fix. If you have V1.2 don't forget to solder a wire between these 2 points. Thanks to nthonyjclarke and dragondaud for pointing this out
+
 <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Morphing-Clock.gif">
 
 This breakout has just few minimal features.
 
+**New in V1.3**
+
+- Fixed missing trace missing beetwen Input G0 and Output G1. That was cutted by accident when creating V1.2 from V1.1.
+
 **New in V1.2**
 
 - Added footprint for a Photoresistor (LDR) + Resistor to be able to adjust luminosity with ambiant light
+- This version has a missing trace between Input G0 and Output G1, connect a wire has follow to fix
+
+<img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/fix-v12-wire.jpg">
+
 
 **New in V1.1**
 
