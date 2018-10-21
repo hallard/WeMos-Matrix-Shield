@@ -8,24 +8,24 @@
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="3" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="3" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="3" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="48" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="40" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="3" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="3" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="3" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="48" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="40" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,20 +43,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="3" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="b3D" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="3" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="b3D" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -4072,6 +4072,237 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="TO-92-AMMO">
+<description>&lt;h3&gt;TO-92 3-Pin PTH AMMO package&lt;/h3&gt;
+&lt;p&gt;&lt;a href=""&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pin Count: 3&lt;/li&gt;
+&lt;li&gt;Dimensions:  3.68 x 4.83 x 4.83 mm&lt;/li&gt;
+&lt;li&gt;Pitch: 2.54 mm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Devices Using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DS18B20&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.2032" layer="21" curve="-111.098957" cap="flat"/>
+<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.2032" layer="21" curve="-111.09954" cap="flat"/>
+<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.2032" layer="21" curve="-25.057615"/>
+<wire x1="0.635" y1="2.54" x2="1.905" y2="1.905" width="0.2032" layer="21" curve="-28.072487"/>
+<wire x1="-1.905" y1="1.905" x2="0.635" y2="2.54" width="0.2032" layer="21" curve="-53.130102"/>
+<pad name="3" x="2.54" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="2" x="0" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.8796"/>
+<text x="0" y="-1.778" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;NAME</text>
+<text x="0" y="2.794" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DS18B20">
+<description>&lt;h3&gt;Dallas/Maxim DS18B20 1-Wire Temperature Sensor&lt;/h3&gt;
+&lt;p&gt;The DS18B20 reports degrees C with 9 to 12-bit precision, -55C to 125C (+/-0.5C). Each sensor has a unique 64-Bit Serial number etched into it - allows for a huge number of sensors to be used on one data bus.&lt;/p&gt;</description>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="DQ" x="-10.16" y="0" length="short"/>
+<pin name="VDD" x="-10.16" y="5.08" length="short" direction="pwr"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
+<text x="-7.62" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-7.62" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DS18B20" prefix="U">
+<description>&lt;h3&gt;Dallas/Maxim DS18B20 1-Wire Temperature Sensor&lt;/h3&gt;
+&lt;p&gt;The DS18B20 reports degrees C with 9 to 12-bit precision, -55C to 125C (+/-0.5C). Each sensor has a unique 64-Bit Serial number etched into it - allows for a huge number of sensors to be used on one data bus.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/245"&gt;One Wire Digital Temperature Sensor - DS18B20&lt;/a&gt; (SEN-00245)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="DS18B20" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-92-AMMO">
+<connects>
+<connect gate="G$1" pin="DQ" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="STORE_ID" value="SEN-00245" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-Jumpers">
+<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
+In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SMT-JUMPER_2_NO_NO-SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+<package name="SMT-JUMPER_2_NO_NO-SILK_ROUND">
+<smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
+<text x="0" y="1.9685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.9685" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.00508125" layer="1">
+<vertex x="0.111125" y="-1.42875" curve="85"/>
+<vertex x="1.381125" y="0" curve="85"/>
+<vertex x="0.111125" y="1.42875"/>
+</polygon>
+<polygon width="0.00508125" layer="1">
+<vertex x="-0.111125" y="1.42875"/>
+<vertex x="-0.111125" y="-1.42875" curve="-85"/>
+<vertex x="-1.381125" y="0" curve="-85"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="0" y="1.42875" curve="-90"/>
+<vertex x="1.42875" y="0" curve="-90"/>
+<vertex x="0" y="-1.42875" curve="-90"/>
+<vertex x="-1.42875" y="0" curve="-90"/>
+</polygon>
+</package>
+<package name="SMT-JUMPER_2_NO_SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+<package name="SMT-JUMPER_2_NO_SILK_ROUND">
+<smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
+<text x="0" y="1.9685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.9685" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.00508125" layer="1">
+<vertex x="0.111125" y="-1.42875" curve="85"/>
+<vertex x="1.381125" y="0" curve="85"/>
+<vertex x="0.111125" y="1.42875"/>
+</polygon>
+<polygon width="0.00508125" layer="1">
+<vertex x="-0.111125" y="1.42875"/>
+<vertex x="-0.111125" y="-1.42875" curve="-85"/>
+<vertex x="-1.381125" y="0" curve="-85"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="0" y="1.42875" curve="-90"/>
+<vertex x="1.42875" y="0" curve="-90"/>
+<vertex x="0" y="-1.42875" curve="-90"/>
+<vertex x="-1.42875" y="0" curve="-90"/>
+</polygon>
+<circle x="0" y="0" radius="1.74625" width="0.2032" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SMT-JUMPER_2_NO">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JUMPER-SMT_2_NO" prefix="JP">
+<description>&lt;h3&gt;Normally open jumper&lt;/h3&gt;
+&lt;p&gt;This jumper has two pads in close proximity to each other. Apply solder to close the connection.&lt;/p&gt;
+
+&lt;p&gt;Round pads are easier to solder for beginners, but are a lot larger.&lt;/p&gt;
+&lt;p&gt;SparkFun Product that uses the round pads:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12781"&gt;SparkFun EL Sequencer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMT-JUMPER_2_NO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_NO-SILK" package="SMT-JUMPER_2_NO_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_NO-SILK_ROUND" package="SMT-JUMPER_2_NO_NO-SILK_ROUND">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK" package="SMT-JUMPER_2_NO_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK_ROUND" package="SMT-JUMPER_2_NO_SILK_ROUND">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4088,7 +4319,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <parts>
 <part name="NAME" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device="" value="Value">
 <attribute name="CNAME" value="ESP8266 Wemos Matrix Shield"/>
-<attribute name="CREVISION" value="1.3"/>
+<attribute name="CREVISION" value="1.4"/>
 <attribute name="DESIGNER" value="Charles-Henri Hallard"/>
 </part>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M08" device="NO_SILK_FEMALE_PTH"/>
@@ -4108,6 +4339,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R1" library="_c2h" deviceset="RESISTOR" device="PTH-1/6W" value="10K"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="_c2h" deviceset="CAP" device="PTH2" value="100nF"/>
+<part name="U2" library="SparkFun-Sensors" deviceset="DS18B20" device=""/>
+<part name="R2" library="_c2h" deviceset="RESISTOR" device="PTH-1/6W" value="4K7"/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" value="JUMPER-SMT_2_NO_NO-SILK"/>
 </parts>
 <sheets>
 <sheet>
@@ -4133,10 +4367,22 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="CNAME" x="186.69" y="21.59" size="2.54" layer="94" font="vector"/>
 <attribute name="CREVISION" x="240" y="6.25" size="2.54" layer="94" font="vector"/>
 </instance>
-<instance part="JP3" gate="G$1" x="138.43" y="97.79" rot="R180"/>
-<instance part="JP4" gate="G$1" x="161.29" y="97.79" rot="MR180"/>
-<instance part="JP7" gate="G$1" x="140.97" y="97.79" rot="R180"/>
-<instance part="JP8" gate="G$1" x="158.75" y="97.79" rot="MR180"/>
+<instance part="JP3" gate="G$1" x="138.43" y="97.79" smashed="yes" rot="R180">
+<attribute name="VALUE" x="143.51" y="110.49" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="140.97" y="84.328" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="JP4" gate="G$1" x="161.29" y="97.79" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="156.21" y="110.49" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="159.385" y="84.328" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="JP7" gate="G$1" x="141.605" y="97.79" smashed="yes" rot="R180">
+<attribute name="VALUE" x="146.685" y="110.49" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="146.685" y="84.328" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="JP8" gate="G$1" x="158.75" y="97.79" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="153.67" y="110.49" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="153.67" y="84.328" size="1.778" layer="95" rot="MR180"/>
+</instance>
 <instance part="JP2" gate="G$1" x="90.805" y="95.885"/>
 <instance part="J1" gate="G$1" x="90.17" y="122.555"/>
 <instance part="J2" gate="G$1" x="118.745" y="121.285" smashed="yes">
@@ -4173,6 +4419,14 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="NAME" x="116.459" y="69.596" size="1.778" layer="95"/>
 <attribute name="VALUE" x="112.649" y="65.024" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U2" gate="G$1" x="161.29" y="67.31"/>
+<instance part="R2" gate="G$1" x="142.875" y="72.39" smashed="yes" rot="R90">
+<attribute name="NAME" x="141.3764" y="71.12" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="146.177" y="69.85" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP1" gate="G$1" x="103.505" y="98.425" smashed="yes">
+<attribute name="NAME" x="105.41" y="99.695" size="1.778" layer="95" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4180,7 +4434,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="7"/>
-<wire x1="163.83" y1="90.17" x2="166.37" y2="90.17" width="0.1524" layer="91"/>
 <label x="168.91" y="90.17" size="1.778" layer="95"/>
 <pinref part="JP8" gate="G$1" pin="7"/>
 <junction x="163.83" y="90.17"/>
@@ -4247,30 +4500,38 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="123.825" y1="62.23" x2="115.57" y2="62.23" width="0.1524" layer="91"/>
 <wire x1="115.57" y1="62.23" x2="115.57" y2="64.135" width="0.1524" layer="91"/>
 <junction x="123.825" y="62.23"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="151.13" y1="62.23" x2="123.825" y2="62.23" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="8"/>
-<wire x1="135.89" y1="87.63" x2="133.35" y2="87.63" width="0.1524" layer="91"/>
 <label x="125.73" y="87.63" size="1.778" layer="95"/>
 <pinref part="JP7" gate="G$1" pin="8"/>
-<junction x="135.89" y="87.63"/>
+<junction x="136.525" y="87.63"/>
 <wire x1="133.35" y1="87.63" x2="123.825" y2="87.63" width="0.1524" layer="91"/>
-<wire x1="135.89" y1="87.63" x2="133.35" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="136.525" y1="87.63" x2="133.35" y2="87.63" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="P$2"/>
 <junction x="133.35" y="87.63"/>
+<pinref part="U2" gate="G$1" pin="VDD"/>
+<wire x1="151.13" y1="72.39" x2="147.955" y2="72.39" width="0.1524" layer="91"/>
+<wire x1="147.955" y1="72.39" x2="147.955" y2="77.47" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="147.955" y1="77.47" x2="142.875" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="142.875" y1="77.47" x2="133.35" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="77.47" x2="133.35" y2="87.63" width="0.1524" layer="91"/>
+<junction x="142.875" y="77.47"/>
 </segment>
 </net>
 <net name="A0" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="2"/>
-<wire x1="135.89" y1="102.87" x2="133.35" y2="102.87" width="0.1524" layer="91"/>
 <label x="125.73" y="102.87" size="1.778" layer="95"/>
 <pinref part="JP7" gate="G$1" pin="2"/>
-<junction x="135.89" y="102.87"/>
+<junction x="136.525" y="102.87"/>
 <wire x1="133.35" y1="102.87" x2="125.73" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="135.89" y1="102.87" x2="133.35" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="136.525" y1="102.87" x2="133.35" y2="102.87" width="0.1524" layer="91"/>
 <junction x="133.35" y="102.87"/>
 </segment>
 <segment>
@@ -4288,26 +4549,24 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="RST" class="0">
 <segment>
-<wire x1="134.62" y1="105.41" x2="135.89" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="105.41" x2="136.525" y2="105.41" width="0.1524" layer="91"/>
 <label x="125.73" y="105.41" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="135.89" y1="105.41" x2="133.35" y2="105.41" width="0.1524" layer="91"/>
-<junction x="135.89" y="105.41"/>
+<junction x="136.525" y="105.41"/>
 <pinref part="JP7" gate="G$1" pin="1"/>
 <wire x1="133.35" y1="105.41" x2="125.73" y2="105.41" width="0.1524" layer="91"/>
-<wire x1="135.89" y1="105.41" x2="133.35" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="136.525" y1="105.41" x2="133.35" y2="105.41" width="0.1524" layer="91"/>
 <junction x="133.35" y="105.41"/>
 </segment>
 </net>
 <net name="STB" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="135.89" y1="100.33" x2="133.35" y2="100.33" width="0.1524" layer="91"/>
 <label x="125.73" y="100.33" size="1.778" layer="95"/>
 <pinref part="JP7" gate="G$1" pin="3"/>
-<junction x="135.89" y="100.33"/>
+<junction x="136.525" y="100.33"/>
 <wire x1="133.35" y1="100.33" x2="125.73" y2="100.33" width="0.1524" layer="91"/>
-<wire x1="135.89" y1="100.33" x2="133.35" y2="100.33" width="0.1524" layer="91"/>
+<wire x1="136.525" y1="100.33" x2="133.35" y2="100.33" width="0.1524" layer="91"/>
 <junction x="133.35" y="100.33"/>
 </segment>
 <segment>
@@ -4319,7 +4578,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="RX" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="2"/>
-<wire x1="163.83" y1="102.87" x2="166.37" y2="102.87" width="0.1524" layer="91"/>
 <label x="168.91" y="102.87" size="1.778" layer="95"/>
 <pinref part="JP8" gate="G$1" pin="2"/>
 <junction x="163.83" y="102.87"/>
@@ -4332,7 +4590,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="JP4" gate="G$1" pin="8"/>
 <label x="168.91" y="87.63" size="1.778" layer="95"/>
-<wire x1="163.83" y1="87.63" x2="166.37" y2="87.63" width="0.1524" layer="91"/>
 <pinref part="JP8" gate="G$1" pin="8"/>
 <junction x="163.83" y="87.63"/>
 <wire x1="166.37" y1="87.63" x2="173.99" y2="87.63" width="0.1524" layer="91"/>
@@ -4374,12 +4631,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="6"/>
-<wire x1="135.89" y1="92.71" x2="133.35" y2="92.71" width="0.1524" layer="91"/>
 <label x="125.73" y="92.71" size="1.778" layer="95"/>
 <pinref part="JP7" gate="G$1" pin="6"/>
-<junction x="135.89" y="92.71"/>
+<junction x="136.525" y="92.71"/>
 <wire x1="133.35" y1="92.71" x2="125.73" y2="92.71" width="0.1524" layer="91"/>
-<wire x1="135.89" y1="92.71" x2="133.35" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="136.525" y1="92.71" x2="133.35" y2="92.71" width="0.1524" layer="91"/>
 <junction x="133.35" y="92.71"/>
 </segment>
 </net>
@@ -4430,7 +4686,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="3"/>
-<wire x1="163.83" y1="100.33" x2="166.37" y2="100.33" width="0.1524" layer="91"/>
 <label x="168.91" y="100.33" size="1.778" layer="95"/>
 <pinref part="JP8" gate="G$1" pin="3"/>
 <junction x="163.83" y="100.33"/>
@@ -4447,12 +4702,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="4"/>
-<wire x1="135.89" y1="97.79" x2="133.35" y2="97.79" width="0.1524" layer="91"/>
 <label x="125.73" y="97.79" size="1.778" layer="95"/>
 <pinref part="JP7" gate="G$1" pin="4"/>
-<junction x="135.89" y="97.79"/>
+<junction x="136.525" y="97.79"/>
 <wire x1="133.35" y1="97.79" x2="125.73" y2="97.79" width="0.1524" layer="91"/>
-<wire x1="135.89" y1="97.79" x2="133.35" y2="97.79" width="0.1524" layer="91"/>
+<wire x1="136.525" y1="97.79" x2="133.35" y2="97.79" width="0.1524" layer="91"/>
 <junction x="133.35" y="97.79"/>
 </segment>
 </net>
@@ -4464,7 +4718,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="6"/>
-<wire x1="163.83" y1="92.71" x2="166.37" y2="92.71" width="0.1524" layer="91"/>
 <label x="168.91" y="92.71" size="1.778" layer="95"/>
 <pinref part="JP8" gate="G$1" pin="6"/>
 <junction x="163.83" y="92.71"/>
@@ -4499,23 +4752,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="97.79" y="125.095"/>
 </segment>
 </net>
-<net name="E" class="0">
-<segment>
-<pinref part="JP2" gate="G$1" pin="8"/>
-<wire x1="98.425" y1="98.425" x2="104.775" y2="98.425" width="0.1524" layer="91"/>
-<label x="99.06" y="98.425" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP4" gate="G$1" pin="5"/>
-<wire x1="163.83" y1="95.25" x2="166.37" y2="95.25" width="0.1524" layer="91"/>
-<label x="168.91" y="95.25" size="1.778" layer="95"/>
-<pinref part="JP8" gate="G$1" pin="5"/>
-<junction x="163.83" y="95.25"/>
-<wire x1="166.37" y1="95.25" x2="173.99" y2="95.25" width="0.1524" layer="91"/>
-<wire x1="163.83" y1="95.25" x2="166.37" y2="95.25" width="0.1524" layer="91"/>
-<junction x="166.37" y="95.25"/>
-</segment>
-</net>
 <net name="B" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="10"/>
@@ -4523,7 +4759,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="99.06" y="95.885" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="163.83" y1="97.79" x2="166.37" y2="97.79" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="4"/>
 <label x="168.91" y="97.79" size="1.778" layer="95"/>
 <pinref part="JP8" gate="G$1" pin="4"/>
@@ -4540,13 +4775,12 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="99.06" y="93.345" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="135.89" y1="95.25" x2="133.35" y2="95.25" width="0.1524" layer="91"/>
 <label x="125.73" y="95.25" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="5"/>
-<junction x="135.89" y="95.25"/>
+<junction x="136.525" y="95.25"/>
 <pinref part="JP7" gate="G$1" pin="5"/>
 <wire x1="133.35" y1="95.25" x2="125.73" y2="95.25" width="0.1524" layer="91"/>
-<wire x1="135.89" y1="95.25" x2="133.35" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="136.525" y1="95.25" x2="133.35" y2="95.25" width="0.1524" layer="91"/>
 <junction x="133.35" y="95.25"/>
 </segment>
 </net>
@@ -4558,18 +4792,16 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="7"/>
-<wire x1="135.89" y1="90.17" x2="133.35" y2="90.17" width="0.1524" layer="91"/>
 <label x="125.73" y="90.17" size="1.778" layer="95"/>
 <pinref part="JP7" gate="G$1" pin="7"/>
-<junction x="135.89" y="90.17"/>
+<junction x="136.525" y="90.17"/>
 <wire x1="133.35" y1="90.17" x2="125.73" y2="90.17" width="0.1524" layer="91"/>
-<wire x1="135.89" y1="90.17" x2="133.35" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="136.525" y1="90.17" x2="133.35" y2="90.17" width="0.1524" layer="91"/>
 <junction x="133.35" y="90.17"/>
 </segment>
 </net>
 <net name="TX" class="0">
 <segment>
-<wire x1="163.83" y1="105.41" x2="166.37" y2="105.41" width="0.1524" layer="91"/>
 <label x="168.91" y="105.41" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <pinref part="JP8" gate="G$1" pin="1"/>
@@ -4579,11 +4811,42 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="166.37" y="105.41"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="JP2" gate="G$1" pin="8"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="DQ" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="DQ"/>
+<wire x1="151.13" y1="67.31" x2="142.875" y2="67.31" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<junction x="142.875" y="67.31"/>
+<wire x1="142.875" y1="67.31" x2="140.97" y2="67.31" width="0.1524" layer="91"/>
+<label x="140.97" y="67.31" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="5"/>
+<label x="168.91" y="95.25" size="1.778" layer="95"/>
+<pinref part="JP8" gate="G$1" pin="5"/>
+<junction x="163.83" y="95.25"/>
+<wire x1="166.37" y1="95.25" x2="173.99" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="163.83" y1="95.25" x2="166.37" y2="95.25" width="0.1524" layer="91"/>
+<junction x="166.37" y="95.25"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="108.585" y1="98.425" x2="109.22" y2="98.425" width="0.1524" layer="91"/>
+<label x="109.22" y="98.425" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
 <approved hash="102,1,129.54,148.59,+5V,5V,,,,"/>
+<approved hash="104,1,151.13,72.39,U2,VDD,3V3,,,"/>
 <approved hash="111,1,135.255,105.41,RST,,,,,"/>
 <approved hash="112,1,137.16,105.41,,,,,,"/>
 <approved hash="112,1,137.16,102.87,,,,,,"/>

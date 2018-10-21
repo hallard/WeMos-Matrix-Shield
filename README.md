@@ -11,6 +11,15 @@ See Issue [#2](https://github.com/hallard/WeMos-Matrix-Shield/issues/2). and how
 
 This breakout has just few minimal features.
 
+This breakout has just few minimal features.
+
+**New in V1.4**
+
+- Added DS18B20 footprint + 4K7 PullUp resistor (DS18B20 DQ connected to GPIO0/D7)
+- Removed E connection to add DS18B20 (DQ PIN), added solder jumper if needed this connection back.
+- added space for barrel DC connector if connector input connector is top soldered see [#3](https://github.com/hallard/WeMos-Matrix-Shield/issues/3)
+- Changed LDR orientation
+
 **New in V1.3**
 
 - Fixed missing trace missing beetwen Input and Output connector G1. That was cutted by accident when creating V1.2 from V1.1.
@@ -41,7 +50,7 @@ This breakout has just few minimal features.
 
 WeMos provide 3 D1, [D1 Mini Lite][20], [D1 Mini][21] or [D1 Mini Pro][22].
 
-**V1.0 boards are tested and working**. But it was missing B1 on 6 pin out connector, so you should grab it elsewhere, but it's now fixed on V1.1+ and also aligned out connector pins to the needed Matrix Order. You can order boards V1.3 at [PCBs.io][4]
+**V1.0 boards are tested and working**. But it was missing B1 on 6 pin out connector, so you should grab it elsewhere, but it's now fixed on V1.1+ and also aligned out connector pins to the needed Matrix Order. You can order boards V1.4 at [PCBs.io][4]
 
 # Detailed Description
 
