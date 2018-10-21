@@ -64,7 +64,18 @@ I suggest to use the excellent code done by [dragondaud](https://github.com/drag
 
 # Assembled boards
 
-TBD
+Board have been made to be plugged directly on the matrix shield, see picture below:
+
+Theese are pictures of the 1st PCB V1.0 with LDR Live Fix, just to see how are connected wire, I'm waiting new boards (V1.3), to take new pictures and show easier connecting.
+
+<img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Wemos-Matrix-Plug-Connector.jpg" alt="Plug connector">
+
+<img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Wemos-Matrix-Full-Plug-Connector.jpg" alt="Plug connector on matrix">
+
+<img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Wemos-Matrix-Plugged.jpg" alt="PCB plugged on matrix">
+
+<img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Wemos-Matrix-Full-Plug-Connector.jpg" alt="PCB plugged on matrix, full boar view">
+
 
 # BOM
 
