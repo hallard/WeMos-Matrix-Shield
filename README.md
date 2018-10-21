@@ -68,13 +68,18 @@ Board have been made to be plugged directly on the matrix shield, see picture be
 
 Theese are pictures of the 1st PCB V1.0 with LDR Live Fix, just to see how are connected wire, I'm waiting new boards (V1.3), to take new pictures and show easier connecting.
 
+
+**2x8 pins female connector is soldered on the bottom side of PCB**
+
 <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Wemos-Matrix-Plug-Connector.jpg" alt="Plug connector">
 
 <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Wemos-Matrix-Full-Plug-Connector.jpg" alt="Plug connector on matrix">
 
+**On this one you can see my dirty hack to add the LDR and 10K resistor on old V1.0 board**
+
 <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Wemos-Matrix-Plugged.jpg" alt="PCB plugged on matrix">
 
-<img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Wemos-Matrix-Full-Plug-Connector.jpg" alt="PCB plugged on matrix, full boar view">
+<img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Wemos-Matrix-Plugged-Full.jpg" alt="PCB plugged on matrix, full board view">
 
 
 # BOM
