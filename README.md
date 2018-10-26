@@ -13,7 +13,7 @@ This breakout has just few minimal features.
 
 **New in V1.5**
 
-- chnaged pwoer connector to fit the same has main Matrix one [#4](https://github.com/hallard/WeMos-Matrix-Shield/issues/4)
+- chnaged power connector spacing to fit the same than Matrix one's [#4](https://github.com/hallard/WeMos-Matrix-Shield/issues/4)
 - added space for smaller Matrix power connector [#4](https://github.com/hallard/WeMos-Matrix-Shield/issues/4)
 - generated [gerbers files](https://github.com/hallard/WeMos-Matrix-Shield/master/gerbers/)
 
