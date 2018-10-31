@@ -13,13 +13,13 @@ This breakout has just few minimal features.
 
 **New in V1.5**
 
-- chnaged power connector spacing to fit the same than Matrix one's [#4](https://github.com/hallard/WeMos-Matrix-Shield/issues/4)
+- changed power connector spacing to fit the same than Matrix one's [#4](https://github.com/hallard/WeMos-Matrix-Shield/issues/4)
 - added space for smaller Matrix power connector [#4](https://github.com/hallard/WeMos-Matrix-Shield/issues/4)
 - generated [gerbers files](https://github.com/hallard/WeMos-Matrix-Shield/master/gerbers/)
 
 **New in V1.4**
 
-- Added DS18B20 footprint + 4K7 PullUp resistor (DS18B20 DQ connected to GPIO0/D7)
+- Added DS18B20 footprint + 4K7 PullUp resistor (DS18B20 DQ connected to GPIO0/D3)
 - Removed E connection to add DS18B20 (DQ PIN), added solder jumper if needed this connection back.
 - added space for barrel DC connector if connector input connector is top soldered see [#3](https://github.com/hallard/WeMos-Matrix-Shield/issues/3)
 - Changed LDR orientation
