@@ -18,6 +18,8 @@ This breakout has just few minimal features.
 
 Please check wiring and picture before ordering, should looks like something like that:
 
+<img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/esp32-mini-all.jpg">
+
 <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/esp32-mini.jpg">
 
 
