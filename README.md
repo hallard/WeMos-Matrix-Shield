@@ -13,7 +13,8 @@ This breakout has just few minimal features.
 
 **New in V1.6**
 
-- added experimetal support for ESP32 boards with WeMos Mini D1 wiring called ESP32 Mini Kit or ESP32 Wemos, or ESP32 MH-ET Live such as this [one](https://www.banggood.com/Wemos-D1-Mini-ESP32-ESP-32-WiFiBluetooth-Internet-Of-Things-Development-Board-Based-ESP8266-p-1205854.html) or this [one](https://www.aliexpress.com/item/MH-ET-LIVE-D1-mini-ESP32-ESP-32-WiFi-Bluetooth-Internet-of-Things-development-board-based/32815530502.html). Board has been extented to fit this module but also backward compatible with WeMos Mini D1 ESP8266.
+- added experimetal support for ESP32 boards with WeMos Mini D1 wiring called ESP32 Mini Kit or ESP32 Wemos, or ESP32 MH-ET Live such as this [banggood model](https://www.banggood.com/Wemos-D1-Mini-ESP32-ESP-32-WiFiBluetooth-Internet-Of-Things-Development-Board-Based-ESP8266-p-1205854.html) or this [aliexpress](https://www.aliexpress.com/item/MH-ET-LIVE-D1-mini-ESP32-ESP-32-WiFi-Bluetooth-Internet-of-Things-development-board-based/32815530502.html). But you can find a lot also on ebay, not a problem.
+- PCB board has been extented to fit this ESP32 Mini module but also backward compatible with WeMos Mini D1 ESP8266.
 
 Please check wiring and picture before ordering, should looks like something like that:
 
