@@ -11,6 +11,15 @@ See Issue [#2](https://github.com/hallard/WeMos-Matrix-Shield/issues/2). and how
 
 This breakout has just few minimal features.
 
+**New in V1.6**
+
+- added experimetal support for ESP32 boards with WeMos Mini D1 wiring called ESP32 Mini Kit or ESP32 Wemos, or ESP32 MH-ET Live such as this [one](https://www.banggood.com/Wemos-D1-Mini-ESP32-ESP-32-WiFiBluetooth-Internet-Of-Things-Development-Board-Based-ESP8266-p-1205854.html) or this [one](https://www.aliexpress.com/item/MH-ET-LIVE-D1-mini-ESP32-ESP-32-WiFi-Bluetooth-Internet-of-Things-development-board-based/32815530502.html). Board has been extented to fit this module but also backward compatible with WeMos Mini D1 ESP8266.
+
+Please check wiring and picture before ordering, should looks like something like that:
+
+<img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/esp32-mini.jpg">
+
+
 **New in V1.5**
 
 - changed power connector spacing to fit the same than Matrix one's [#4](https://github.com/hallard/WeMos-Matrix-Shield/issues/4)

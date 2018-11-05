@@ -2616,6 +2616,29 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <wire x1="-0.3" y1="0" x2="-0.5" y2="0" width="0.2" layer="25"/>
 <wire x1="0.3" y1="0" x2="0.5" y2="0" width="0.2" layer="25"/>
 </package>
+<package name="PAD">
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796"/>
+</package>
+<package name="PAD-SMALL">
+<pad name="1" x="0" y="0" drill="0.8128" diameter="1.3716"/>
+</package>
+<package name="PAD-BIG">
+<pad name="1" x="0" y="0" drill="1.4" diameter="2.54"/>
+</package>
+<package name="PAD-SCREW-2.5">
+<pad name="1" x="0" y="0" drill="2.5" diameter="4.5"/>
+</package>
+<package name="PAD-SCREW-3.0">
+<pad name="1" x="0" y="0" drill="3" diameter="4.5"/>
+</package>
+<package name="PAD-SCREW-2.7">
+<pad name="1" x="0" y="0" drill="2.7" diameter="4.5" stop="no"/>
+</package>
+<package name="SMD1,27-2,54-XL">
+<smd name="1" x="0" y="0" dx="1.27" dy="12.7" layer="1"/>
+<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.8" y="-3.67" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="KL2">
@@ -2657,6 +2680,10 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <text x="1.524" y="2.921" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.524" y="-2.159" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PAD">
+<pin name="1" x="0" y="0" visible="off" length="point"/>
+<circle x="0" y="0" radius="0.762" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3015,6 +3042,69 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PAD" prefix="P">
+<gates>
+<gate name="G$1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NORMAL" package="PAD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMALL" package="PAD-SMALL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BIG" package="PAD-BIG">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2.5" package="PAD-SCREW-2.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.0" package="PAD-SCREW-3.0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2.7" package="PAD-SCREW-2.7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD-XL" package="SMD1,27-2,54-XL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3572,7 +3662,7 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <parts>
 <part name="NAME" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device="" value="Value">
 <attribute name="CNAME" value="ESP8266 Wemos Matrix Shield"/>
-<attribute name="CREVISION" value="1.5"/>
+<attribute name="CREVISION" value="1.6"/>
 <attribute name="DESIGNER" value="Charles-Henri Hallard"/>
 </part>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M08" device="NO_SILK_FEMALE_PTH"/>
@@ -3595,6 +3685,10 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <part name="R2" library="_c2h" deviceset="RESISTOR" device="PTH-1/6W" value="4K7"/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" value="JUMPER-SMT_2_NO_NO-SILK"/>
 <part name="X2" library="con-molex" deviceset="KK-156-4" device=""/>
+<part name="VIN1" library="_c2h" deviceset="PAD" device="NORMAL"/>
+<part name="VIN2" library="_c2h" deviceset="PAD" device="NORMAL"/>
+<part name="VIN3" library="_c2h" deviceset="PAD" device="NORMAL"/>
+<part name="VIN4" library="_c2h" deviceset="PAD" device="NORMAL"/>
 </parts>
 <sheets>
 <sheet>
@@ -3658,23 +3752,23 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <attribute name="VALUE" x="132.08" y="153.67" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND1" gate="1" x="145.415" y="121.92"/>
-<instance part="U1" gate="G$1" x="123.825" y="81.28" smashed="yes" rot="R90">
-<attribute name="VALUE" x="125.73" y="83.185" size="1.27" layer="96" ratio="10" rot="R270"/>
-<attribute name="NAME" x="128.905" y="80.645" size="1.27" layer="95" ratio="10" rot="R90"/>
+<instance part="U1" gate="G$1" x="116.84" y="81.28" smashed="yes" rot="R90">
+<attribute name="VALUE" x="118.745" y="83.185" size="1.27" layer="96" ratio="10" rot="R270"/>
+<attribute name="NAME" x="121.92" y="80.645" size="1.27" layer="95" ratio="10" rot="R90"/>
 </instance>
-<instance part="R1" gate="G$1" x="123.825" y="67.945" smashed="yes" rot="R90">
-<attribute name="NAME" x="122.3264" y="66.675" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="127.127" y="65.405" size="1.778" layer="96" rot="R90"/>
+<instance part="R1" gate="G$1" x="116.84" y="61.595" smashed="yes" rot="R90">
+<attribute name="NAME" x="115.3414" y="60.325" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="120.142" y="59.055" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND2" gate="1" x="123.825" y="59.055"/>
-<instance part="C1" gate="G$1" x="115.57" y="66.675" smashed="yes">
-<attribute name="NAME" x="116.459" y="69.596" size="1.778" layer="95"/>
-<attribute name="VALUE" x="112.649" y="65.024" size="1.778" layer="96" rot="R90"/>
+<instance part="GND2" gate="1" x="116.84" y="52.705"/>
+<instance part="C1" gate="G$1" x="108.585" y="60.325" smashed="yes">
+<attribute name="NAME" x="109.474" y="63.246" size="1.778" layer="95"/>
+<attribute name="VALUE" x="105.664" y="58.674" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U2" gate="G$1" x="161.29" y="67.31"/>
-<instance part="R2" gate="G$1" x="142.875" y="72.39" smashed="yes" rot="R90">
-<attribute name="NAME" x="141.3764" y="71.12" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="146.177" y="69.85" size="1.778" layer="96" rot="R90"/>
+<instance part="U2" gate="G$1" x="161.29" y="60.96"/>
+<instance part="R2" gate="G$1" x="142.875" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="141.3764" y="64.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="146.177" y="63.5" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="JP1" gate="G$1" x="103.505" y="98.425" smashed="yes">
 <attribute name="NAME" x="105.41" y="99.695" size="1.778" layer="95" font="vector"/>
@@ -3683,6 +3777,10 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <instance part="X2" gate="-2" x="142.875" y="141.605" rot="R180"/>
 <instance part="X2" gate="-3" x="142.875" y="139.065" rot="R180"/>
 <instance part="X2" gate="-4" x="142.875" y="136.525" rot="R180"/>
+<instance part="VIN1" gate="G$1" x="160.02" y="81.28"/>
+<instance part="VIN2" gate="G$1" x="160.02" y="78.74"/>
+<instance part="VIN3" gate="G$1" x="140.335" y="81.28"/>
+<instance part="VIN4" gate="G$1" x="140.335" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -3750,34 +3848,36 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="123.825" y1="61.595" x2="123.825" y2="62.23" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="55.245" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="123.825" y1="62.23" x2="123.825" y2="62.865" width="0.1524" layer="91"/>
-<wire x1="123.825" y1="62.23" x2="115.57" y2="62.23" width="0.1524" layer="91"/>
-<wire x1="115.57" y1="62.23" x2="115.57" y2="64.135" width="0.1524" layer="91"/>
-<junction x="123.825" y="62.23"/>
+<wire x1="116.84" y1="55.88" x2="116.84" y2="56.515" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="55.88" x2="108.585" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="108.585" y1="55.88" x2="108.585" y2="57.785" width="0.1524" layer="91"/>
+<junction x="116.84" y="55.88"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="151.13" y1="62.23" x2="123.825" y2="62.23" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="8"/>
-<label x="125.73" y="87.63" size="1.778" layer="95"/>
+<label x="118.745" y="87.63" size="1.778" layer="95"/>
 <pinref part="JP7" gate="G$1" pin="8"/>
 <junction x="136.525" y="87.63"/>
-<wire x1="133.35" y1="87.63" x2="123.825" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="87.63" x2="125.73" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="125.73" y1="87.63" x2="116.84" y2="87.63" width="0.1524" layer="91"/>
 <wire x1="136.525" y1="87.63" x2="133.35" y2="87.63" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="P$2"/>
 <junction x="133.35" y="87.63"/>
 <pinref part="U2" gate="G$1" pin="VDD"/>
-<wire x1="151.13" y1="72.39" x2="147.955" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="147.955" y1="72.39" x2="147.955" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="66.04" x2="147.955" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="147.955" y1="66.04" x2="147.955" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="147.955" y1="77.47" x2="142.875" y2="77.47" width="0.1524" layer="91"/>
-<wire x1="142.875" y1="77.47" x2="133.35" y2="77.47" width="0.1524" layer="91"/>
-<wire x1="133.35" y1="77.47" x2="133.35" y2="87.63" width="0.1524" layer="91"/>
-<junction x="142.875" y="77.47"/>
+<wire x1="147.955" y1="71.12" x2="142.875" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="142.875" y1="71.12" x2="125.73" y2="71.12" width="0.1524" layer="91"/>
+<junction x="142.875" y="71.12"/>
+<wire x1="125.73" y1="71.12" x2="125.73" y2="87.63" width="0.1524" layer="91"/>
+<junction x="125.73" y="87.63"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -3792,15 +3892,15 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P$1"/>
-<wire x1="123.825" y1="74.93" x2="123.825" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="74.93" x2="116.84" y2="70.485" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="123.825" y1="73.66" x2="123.825" y2="73.025" width="0.1524" layer="91"/>
-<wire x1="123.825" y1="73.66" x2="126.365" y2="73.66" width="0.1524" layer="91"/>
-<label x="126.365" y="73.66" size="1.778" layer="95" xref="yes"/>
-<junction x="123.825" y="73.66"/>
+<wire x1="116.84" y1="70.485" x2="116.84" y2="66.675" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="70.485" x2="118.745" y2="70.485" width="0.1524" layer="91"/>
+<label x="118.745" y="70.485" size="1.778" layer="95" xref="yes"/>
+<junction x="116.84" y="70.485"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="123.825" y1="73.66" x2="115.57" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="115.57" y1="73.66" x2="115.57" y2="71.755" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="70.485" x2="108.585" y2="70.485" width="0.1524" layer="91"/>
+<wire x1="108.585" y1="70.485" x2="108.585" y2="65.405" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -4077,11 +4177,11 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <net name="DQ" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="DQ"/>
-<wire x1="151.13" y1="67.31" x2="142.875" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="60.96" x2="142.875" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<junction x="142.875" y="67.31"/>
-<wire x1="142.875" y1="67.31" x2="140.97" y2="67.31" width="0.1524" layer="91"/>
-<label x="140.97" y="67.31" size="1.778" layer="95" rot="R180" xref="yes"/>
+<junction x="142.875" y="60.96"/>
+<wire x1="142.875" y1="60.96" x2="140.97" y2="60.96" width="0.1524" layer="91"/>
+<label x="140.97" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="5"/>
@@ -4098,12 +4198,44 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <label x="109.22" y="98.425" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="TDO" class="0">
+<segment>
+<pinref part="VIN1" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="81.28" x2="173.99" y2="81.28" width="0.1524" layer="91"/>
+<label x="168.91" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDO" class="0">
+<segment>
+<pinref part="VIN2" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="78.74" x2="173.99" y2="78.74" width="0.1524" layer="91"/>
+<label x="168.91" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TCK" class="0">
+<segment>
+<wire x1="140.335" y1="81.28" x2="128.905" y2="81.28" width="0.1524" layer="91"/>
+<label x="128.905" y="81.28" size="1.778" layer="95"/>
+<pinref part="VIN3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="SD3" class="0">
+<segment>
+<wire x1="140.335" y1="78.74" x2="128.905" y2="78.74" width="0.1524" layer="91"/>
+<label x="128.905" y="78.74" size="1.778" layer="95"/>
+<pinref part="VIN4" gate="G$1" pin="1"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
 <approved hash="102,1,129.54,148.59,+5V,5V,,,,"/>
-<approved hash="104,1,151.13,72.39,U2,VDD,3V3,,,"/>
+<approved hash="104,1,151.13,66.04,U2,VDD,3V3,,,"/>
+<approved hash="106,1,140.335,78.74,SD3,,,,,"/>
+<approved hash="106,1,160.02,78.74,SDO,,,,,"/>
+<approved hash="106,1,140.335,81.28,TCK,,,,,"/>
+<approved hash="106,1,160.02,81.28,TDO,,,,,"/>
 <approved hash="111,1,135.573,105.41,RST,,,,,"/>
 <approved hash="112,1,137.478,105.41,,,,,,"/>
 <approved hash="112,1,137.478,102.87,,,,,,"/>
