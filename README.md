@@ -100,7 +100,7 @@ Theese are pictures of the 1st PCB V1.0 with LDR Live Fix, just to see how are c
 
 <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Wemos-Matrix-Full-Plug-Connector.jpg" alt="Plug connector on matrix">
 
-**On this one you can see my dirty hack to add the LDR and 10K resistor on old V1.0 board**
+**On this one you can see latest version with ESP32 MH-ET Live**
 
 <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/Wemos-Matrix-Plugged.jpg" alt="PCB plugged on matrix">
 
