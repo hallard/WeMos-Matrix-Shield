@@ -1,5 +1,7 @@
 # Basic ESP8266 WeMos Matrix Shield for Digital Morphing Clock
 
+**This project has been deprecated** please check new version with ESP32 and DMA version [here](https://github.com/hallard/WeMos-Matrix-Shield-DMA)
+
 This shield is used to get simplify ESP8266 connectivity with a [WeMos][22] ESP8266 and nice matric RGB led. This idea came from excellent project called [Morphing Digital Clock][3] done by [HariFun][1] Instructable
 
 See it in action, nice isn't it?
